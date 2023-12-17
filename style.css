@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url('../SIR Simulation/src/SUIT-ttf/SUIT-Regular.ttf') format('truetype');
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'SUIT-Regular';
+  }
+
