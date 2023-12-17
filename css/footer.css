@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "SUIT-Heavy";
+  src: url("../src/SUIT-ttf/SUIT-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SUIT-Bold";
+  src: url("../src/SUIT-ttf/SUIT-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SUIT-Light";
+  src: url("../src/SUIT-ttf/SUIT-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SUIT-M";
+  src: url("../src/SUIT-ttf/SUIT-Medium.ttf") format("truetype");
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  margin-top: 3.1em;
+  margin-bottom: 2.8em;
+  font-family: "SUIT-M";
+  color: black;
+  text-decoration: none;
+  border-top: 2.4px solid black;
+}
+
+#footer-span {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.4em;
+}
+
+#copyright {
+  margin-right: 3.1em;
+}
+
+#email {
+  margin-left: 3.1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #6ECEDA;
+}

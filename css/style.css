@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url("../src/SUIT-ttf/SUIT-Regular.ttf") format("truetype");
+}
+
+body {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  font-family: "SUIT-Regular";
+}
+
+#simulate {
+  margin-top: 1.4em;
+  background-color:#ffffff;
+	border-radius:22px;
+	border:1px solid #6ECEDA;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:14px;
+	padding:13px 25px;
+	text-decoration:none;
+}
+
+#simulate:hover {
+  color: #6ECEDA;
+}
+
+#simulate:active {
+  position: relative;
+  top: 1px;
+}
+
+
+        
